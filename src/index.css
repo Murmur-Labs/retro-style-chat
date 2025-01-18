@@ -1,0 +1,15 @@
+:root {
+  --terminal-orange: #ff8c00;
+  --terminal-bg: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: 'VT323', monospace;
+  background-color: var(--terminal-bg);
+  color: var(--terminal-orange);
+}
+
+* {
+  box-sizing: border-box;
+}
